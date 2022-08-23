@@ -1,15 +1,15 @@
-@import '_vars.scss';
-
-
-.App{
-    h1{
-        text-align: center;
-        color: $main-color;
-    }
-
-    h3{
-        text-align: center;
-        color: $secondary-color;
-    }
+@import './_vars.scss';
+body {
+	background-color: $bg-color;
 }
 
+.App {
+	h1 {
+		color: $main-color;
+		text-align: center;
+	}
+	h3 {
+		color: $secondary-color;
+		text-align: center;
+	}
+}
